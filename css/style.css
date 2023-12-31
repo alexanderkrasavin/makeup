@@ -22,6 +22,9 @@ img{
   font-family: 'Poiret One';
   text-align: center;
 }
+.header{
+  padding-top: 5px;
+}
 .header__wrapper{
   display: flex;
   justify-content: space-between;
