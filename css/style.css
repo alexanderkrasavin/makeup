@@ -48,10 +48,12 @@ img{
   background-color: #FDC6A866;
 }
 .main{
-  width: 372px;
   height: 558px;
   margin: -60px auto 0;
   background: url(../images/site-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   margin-bottom: 57px;
 }
 .main__subtitles{
@@ -450,7 +452,7 @@ img{
   letter-spacing: 0.36px;
 }
 .about__text-wrapper{
-  border: 2px solid #EBAF14;
+  border: 1px solid #EBAF14;
   margin-bottom: 10px;
   padding: 10px;
   position: relative;
@@ -459,9 +461,9 @@ img{
   content: '';
   position: absolute;
   top: 50%;
-  left: -6px;
-  width: 10px;
-  height: 10px;
+  left: -3px;
+  width: 5px;
+  height: 5px;
   background-color: #EBAF14;
   transform: rotate(45deg);
 }
@@ -469,9 +471,9 @@ img{
   content: '';
   position: absolute;
   top: 50%;
-  right: -6px;
-  width: 10px;
-  height: 10px;
+  right: -3px;
+  width: 5px;
+  height: 5px;
   background-color: #EBAF14;
   transform: rotate(45deg);
 }
@@ -506,4 +508,80 @@ img{
   font-weight: 400;
   line-height: 23px;
   margin-bottom: 30px;
+}
+.price{
+  padding-top: 29px;
+  background: url(../images/price-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+}
+.price__title{
+  margin-bottom: 50%;
+}
+.price__text{
+  display: inline-flex;
+  color: #201E1E;
+  text-align: center;
+  font-family: 'Arimo';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.51px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: rgba(253, 198, 168, 0.56);
+  margin-bottom: 20px;
+}
+.price__text-wrapper{
+  position: relative;
+  margin-top: 210px;
+}
+.second-wrapper{
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+  background: url(../images/price-bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.price__bonus{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.price__cond{
+  color: #201E1E;
+  text-align: center;
+  font-family: 'Arimo';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.51px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+.footer{
+  text-align: center;
+  padding-top: 45px;
+}
+.footer__contact{
+  color: #000;
+  font-family: 'Forum';
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 26px;
+}
+.footer__img-wrapper{
+  text-align: right;
 }
