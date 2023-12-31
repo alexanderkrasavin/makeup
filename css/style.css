@@ -48,7 +48,7 @@ img{
   width: 372px;
   height: 558px;
   margin: -60px auto 0;
-  background: url(/images/site-bg.png);
+  background: url(../images/site-bg.png);
   margin-bottom: 57px;
 }
 .main__subtitles{
@@ -313,7 +313,7 @@ img{
   padding-left: 20px;
 }
 .for-start{
-  background: url(/images/for-bg.png);
+  background: url(../images/for-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -46px;
@@ -355,7 +355,7 @@ img{
   left: 50%;
   top: 50%;
   transform: translate(-75%, -45%);
-  background: url(/images/for-text-border.svg);
+  background: url(../images/for-text-border.svg);
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 5px;
@@ -384,7 +384,7 @@ img{
   transform: translate(-27%, -53%);
 }
 .for-finish{
-  background: url(/images/for-bg2.png);
+  background: url(../images/for-bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 50px;
