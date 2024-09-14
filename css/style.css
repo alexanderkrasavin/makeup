@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Arimo:wght@500&family=Forum&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -15,11 +16,11 @@ img{
   margin: 0 auto;
 }
 .title{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   line-height: 32px;
   text-transform: uppercase;
-  font-family: 'Poiret One';
+  font-family: 'Montserrat';
   text-align: center;
 }
 .header{
@@ -29,6 +30,12 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__logo{
+  width: 30%;
+}
+.header__owner{
+  font-size: 28px;
 }
 .header__title{
   font-weight: 400;
@@ -45,7 +52,7 @@ img{
 .header__down{
   height: 84px;
   border: 0;
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
 }
 .main{
   height: 558px;
@@ -121,7 +128,7 @@ img{
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.48px;
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   border-radius: 10px;
   padding: 2px 30px;
   margin-bottom: 36px;
@@ -160,7 +167,7 @@ img{
 }
 .makeups__title{
   padding: 10px 0;
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   margin-bottom: 20px;
 }
 .makeups__wrapper{
@@ -233,9 +240,12 @@ img{
 .after__img:last-child{
   margin-left: -55px;
 }
+.ways{
+  padding-bottom: 15px;
+}
 .ways__title{
   padding: 15px 0;
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   margin-bottom: 20px;
 }
 .ways__title-wrapper{
@@ -247,7 +257,7 @@ img{
   color: #580520;
   text-align: center;
   font-family: 'Arimo';
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 160%;
   letter-spacing: 0.66px;
@@ -259,7 +269,7 @@ img{
   width: 100%;
 }
 .ways__info{
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   margin-bottom: 28px;
 }
 .ways__info-text{
@@ -287,7 +297,7 @@ img{
   margin-bottom: 10px;
 }
 .ways__point-title span{
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   padding: 5px 25px;
   border-radius: 5px;
 }
@@ -313,12 +323,11 @@ img{
 }
 .ways__info-list li{
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   list-style-type: none;
   padding-left: 20px;
 }
 .for-start{
-  background: url(../images/for-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -46px;
@@ -328,22 +337,26 @@ img{
   text-align: center;
 }
 .for__block-title{
-  color: #EBAF14;
+  display: block;
+  padding: 15px 0;
+  margin-bottom: 15px;  
+  color: black;
   text-align: center;
-  font-family: 'Poiret One';
+  font-family: 'Montserrat';
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  background-color: #e8cfca;
 }
 .for__fig-wrapper{
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .for__text{
   color: #B11548;
@@ -365,7 +378,18 @@ img{
   background-repeat: no-repeat;
   padding-bottom: 5px;
 }
+/* .for__img{
+  width: 30%;
+} */
+.for__text-block{
+  text-transform: uppercase;
+  background-color: rgba(194, 168, 162, 0.8);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
 .for__img-1{
+  padding-top: 20px;
   margin-top: 70px;
   margin-bottom: 40px;
 }
@@ -389,7 +413,6 @@ img{
   transform: translate(-27%, -53%);
 }
 .for-finish{
-  background: url(../images/for-bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 50px;
@@ -399,11 +422,11 @@ img{
 }
 .reviews__title{
   padding: 15px 0;
-  background-color: #FDC6A866;
+  background-color: #e8cfca;
   margin-bottom: 20px;
 }
 .reviews__wrapper{
-  background: #F9D3B7;
+  background: rgba(194, 168, 162, 0.8);
 }
 .review__img-wrapper{
   display: flex;
@@ -547,10 +570,7 @@ img{
   background-position: center;
 }
 .price__bonus{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #e8cfca;
   width: 100%;
 }
 .price__cond{
