@@ -75,7 +75,13 @@ img{
   font-family: 'Montserrat';
   font-weight: 400;
 }
+.main__links-wrapper{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
 .main__getstudy-tel{
+  font-size: 18px;
   font-family: 'Montserrat';
   font-weight: 400;
   color: black;
