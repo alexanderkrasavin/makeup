@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="header__wrapper">
         <img src="images/logo.svg" alt="" class="header__logo">
@@ -281,9 +281,9 @@
         <h2 class="price__title title">стоимость курсов</h2>
   
         <p class="price__prog-title price__text">Курс "Макияж на каждый день"</p>
-        <p class="price__prog-price price__text">8 900 РУБ</p>
+        <p class="price__prog-price price__text price__cout"><span class="price__text-extra">15 500 руб</span>8 900 РУБ</p>
         <p class="price__prog-title price__text">Курс "Макияж на любой случай"</p>
-        <p class="price__prog-price price__text">11 900 РУБ</p>
+        <p class="price__prog-price price__text price__cout"><span class="price__text-extra">18 500 руб</span>11 900 РУБ</p>
 
         <div class="price__text-wrapper">
           <p class="price__bonus title">ПРИОБРЕТИТЕ СЕРТИФИКАТ ДЛЯ БЛИЗКОГО ЧЕЛОВЕКА В ПОДАРОК </p>
@@ -307,7 +307,7 @@
       <p class="footer__contact">8 985 624 72 70</p>
       
       <div class="footer__img-wrapper">
-        <img src="images/footer-logo.svg" alt="">
+        <a href="#header" class="footer__main-link"><img src="images/footer-logo.svg" alt=""></a>
       </div>
     </div>
   </footer>

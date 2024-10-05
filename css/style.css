@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 img{
   max-width: 100%;
 }
@@ -98,6 +101,9 @@ img{
   font-family: 'Montserrat';
   list-style: none;
   text-align: center;
+}
+.services__list-item{
+  font-size: 24px;
 }
 .services__list-item:not(:last-child){
   margin-bottom: 25px;
@@ -493,8 +499,8 @@ img{
 }
 .about__title{
   text-align: center;
-  font-family: 'Poiret One';
   font-size: 27px;
+  font-family: 'montserrat';
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -580,10 +586,11 @@ img{
   background-color: transparent;
 }
 .price__text{
+  padding: 0 15px;
   display: inline-flex;
   color: #201E1E;
   text-align: center;
-  font-family: 'Arimo';
+  font-family: 'montserrat';
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -594,9 +601,25 @@ img{
   background: rgba(253, 198, 168, 0.56);
   margin-bottom: 20px;
 }
+.price__text-extra{
+  padding: 0px 20px 0 0;
+  text-decoration: line-through;
+  color: #201E1E;
+  text-align: center;
+  font-family: 'montserrat';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.51px;
+}
+.price__cout{
+  color: #5B020D;
+  font-weight: 700;
+}
 .price__text-wrapper{
   position: relative;
-  margin-top: 210px;
+  margin-top: 180px;
 }
 .second-wrapper{
   margin-top: 0;
@@ -633,8 +656,10 @@ img{
 }
 .footer__contact-title{
   background-color: transparent;
+  margin-bottom: 10px;
 }
 .footer__contact{
+  font-size: 19px;
   margin-bottom: 26px;
 }
 .footer__contact-link{
