@@ -216,11 +216,17 @@ img{
 }
 .makeups__wrapper{
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  justify-content: center;
+  gap: 5px;
 }
-.makeups__img{
-  width: 50%;
+.makeups-wrapper__img{
+  display: block;
+  height: 45%;
+  width: 45%;
+  border: 3px solid #e8cfca;
+  margin-bottom: 35px;
 }
 .results{
   margin-bottom: 54px;
@@ -243,10 +249,16 @@ img{
 .results__img-wrapper{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
 }
 .results__img{
-  width: 50%;
+  display: block;
+  margin-bottom: 30px;
+  height: 45%;
+  width: 45%;
+  border: 3px solid #e8cfca;
 }
 .after__title{
   color: rgba(235, 118, 174, 0.74);
@@ -421,19 +433,38 @@ img{
   background-repeat: no-repeat;
   padding-bottom: 5px;
 }
-/* .for__img{
+.for__img-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 45px;
+  width: 100%;
+}
+.for__img:first-child{
+  z-index: 1;
   width: 30%;
-} */
+}
+.for__img:last-child{
+  z-index: 1;
+  width: 30%;
+}
+.for__img{
+  z-index: 5;
+  width: 40%;
+  border: 1px solid black;
+}
+.for__img:first-child{
+  margin-right: -30px;
+}
+.for__img:last-child{
+  margin-left: -30px;
+}
 .for__text-block{
+  font-family: 'arimo';
   text-transform: uppercase;
   background-color: rgba(194, 168, 162, 0.8);
   padding: 20px;
   margin-bottom: 15px;
-}
-.for__img-1{
-  padding-top: 20px;
-  margin-top: 70px;
-  margin-bottom: 40px;
 }
 .second-fig{
   text-align: right;
