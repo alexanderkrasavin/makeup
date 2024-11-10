@@ -106,7 +106,7 @@ img{
 }
 .services__list-item{
   font-size: 18px;
-  font-weight: 600;
+  text-transform: uppercase;
 }
 .services__list-item:not(:last-child){
   margin-bottom: 25px;
@@ -124,11 +124,11 @@ img{
 }
 .place__info{
   color: #201E1E;
-  text-transform: uppercase;
   text-align: center;
   font-family: 'Arimo';
   font-size: 18px;
   line-height: 23px;
+  font-weight: 600;
 }
 .why{
   margin-bottom: 41px;
@@ -702,12 +702,13 @@ img{
   padding-top: 45px;
 }
 .footer__contact-title{
+  margin-bottom: 5px;
   background-color: transparent;
-  margin-bottom: 10px;
+  font-family: 'poiret one';
 }
 .footer__contact{
   font-size: 19px;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 .footer__contact-link{
   text-decoration: none;
@@ -715,8 +716,10 @@ img{
   font-family: 'Forum';
   font-size: 19px;
   font-style: normal;
-  font-weight: 400;
   line-height: 23px;
+}
+.footer__contact-link:hover{
+  border-bottom: 2px dotted black;
 }
 .footer__img-wrapper{
   text-align: right;
